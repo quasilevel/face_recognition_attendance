@@ -1,2 +1,2 @@
-# face_recognition_attendance
-Please go through the README.md before using the code
+Use it on Python 3.7 only.
+I have used Python 3.7.9 in particular.
