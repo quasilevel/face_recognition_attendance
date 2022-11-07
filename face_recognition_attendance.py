@@ -27,7 +27,7 @@ def findEncodings(images):
 # Attendance Marking Function
 def markAttendance(name):
     with open('Attendance.csv','r+') as f:
-        myDataList = f.readline()
+        myDataList = f.readlines()
         nameList = []
         for line in myDataList:
             entry = line.split(',')
@@ -45,7 +45,6 @@ cap = cv2.VideoCapture(0)
 
 while True:
     success, img = cap.read()
-    # imgS = cv2.resize(img,(0,0),None,0.25,0.25)
     imgS = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
     faceCurFrame = face_recognition.face_locations(imgS)
