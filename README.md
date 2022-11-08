@@ -1,7 +1,7 @@
 # Face Recognition Attendance
 **Note: Linux users were not recommended to use it as it requires to install an older version of Python which will clash with your current python version & there are a few more errors in the way.**
 
-It is a Face Recognition based  Attendance System. It automatically matches the captured faces & marks their attendance without duplicity. It uses images as a database. You were required to set the individual's name as the image title in your database. Here DataBase is referred to `ImageAttendance` Folder.
+It is a Face Recognition based  Attendance System. It automatically matches the captured faces & marks their attendance without duplicity. It uses images as a database. You were required to set the individual's name as the image title in your database. Here DataBase is referred to `ImagesAttendance` Folder.
 
 ## Requirements
 - **Python 3.7 (only)**
